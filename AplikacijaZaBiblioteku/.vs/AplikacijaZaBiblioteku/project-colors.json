@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "07b2c36d-b37a-4799-9026-833d3f07ab22": {
+      "ProjectGuid": "07b2c36d-b37a-4799-9026-833d3f07ab22",
+      "DisplayName": "AplikacijaZaBiblioteku",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
