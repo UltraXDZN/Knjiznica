@@ -4,7 +4,7 @@
 	<xs:element name="Biblioteka">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="Korisnik">
+				<xs:element name="Posuditelj">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="OIB" type="xs:integer"/>

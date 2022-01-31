@@ -86,3 +86,18 @@ E:\Zadace\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csproj.Generat
 E:\Zadace\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csproj.CoreCompileInputs.cache
 E:\Zadace\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.exe
 E:\Zadace\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.pdb
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\bin\Debug\AplikacijaZaBiblioteku.exe.config
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\bin\Debug\AplikacijaZaBiblioteku.exe
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\bin\Debug\AplikacijaZaBiblioteku.pdb
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csproj.AssemblyReference.cache
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.GlavniIzbornik.resources
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.PosudbaVracanje.resources
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.Pretraga.resources
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.Properties.Resources.resources
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.UpisKnjige.resources
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.UpisPosuditelja.resources
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csproj.GenerateResource.cache
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csproj.CoreCompileInputs.cache
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.exe
+C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.pdb
