@@ -21,7 +21,7 @@ namespace AplikacijaZaBiblioteku
             DialogResult dialogResult = MessageBox.Show("Zelite li dodati dodatni upis?", "Upis", MessageBoxButtons.YesNo);
             Posudba PosudbaVracanje = new Posudba(DateTime.Today, Convert.ToInt32(KnjigaText.Text), Convert.ToInt32(KorisnikText.Text), VracanjeCheck.Checked);
             PosudbaVracanjeList.Add(PosudbaVracanje);
-            if (dialogResult == DialogResult.No)
+            if (dialogResult == DialogResult.Yes)
             {
                 try
                 {

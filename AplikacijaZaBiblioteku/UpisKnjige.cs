@@ -40,7 +40,7 @@ namespace AplikacijaZaBiblioteku
             Knjige KnjigeUpis = new Knjige(float.Parse(ISBNKnjige.Text), NazivKnjige.Text, AutorKnjige.Text, Convert.ToInt32(KolicinaKnjige.Text));
             KnjigeList.Add(KnjigeUpis);
             DialogResult dialogResult = MessageBox.Show("Zelite li dodati dodatni upis?", "Upis", MessageBoxButtons.YesNo);
-            if (dialogResult == DialogResult.No)
+            if (dialogResult == DialogResult.Yes)
             {
                 try
                 {

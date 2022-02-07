@@ -15,7 +15,6 @@ namespace AplikacijaZaBiblioteku
 {
     public partial class Pretraga : Form
     {
-
         static string pathPosudbaVracanje = $"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}/PosudbaVracanje.xml";
         static string pathPosuditelji = $"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}/Posudtielji.xml";
         static string pathKnjige = $"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}/Knjige.xml";
@@ -29,10 +28,42 @@ namespace AplikacijaZaBiblioteku
         {
             try
             {
-                //PretragaRichTextbox.Text = "";
-                //var Knjige = XDocument.Load(pathKnjige);
-                //var Posuditelji = XDocument.Load(pathPosuditelji);
+                PretragaRichTextbox.Text = "";
+                //var knjige = XDocument.Load(pathKnjige);
+                
                 //var PosudbaVracanje = XDocument.Load(pathPosudbaVracanje);
+                if (imeTextBox.Enabled && !NazivtextBox.Enabled)
+                {
+                    var posuditelji = XDocument.Load(pathPosuditelji);
+                    IEnumerable<string> OIBList = from s in posuditelji.Descendants("Korisnik")
+                                                  where s.Element("OIB").Value == OIBtextBox.Text || s.Element("Ime").Value == imeTextBox.Text || s.Element("Prezime").Value == prezimeTextBox.Text
+                                                  select $"OIB: {s.Element("OIB").Value} \nIme: { s.Element("Ime").Value} \nPrezime: {s.Element("Prezime").Value}\n\n";
+                    foreach (string s in OIBList)
+                    {
+                        PretragaRichTextbox.Text += s;
+                    }
+                }
+                else if (!imeTextBox.Enabled && NazivtextBox.Enabled)
+                {
+                    var knjige = XDocument.Load(pathKnjige);
+                    IEnumerable<string> OIBList = from s in knjige.Descendants("Knjiga")
+                                                  where s.Element("ISBN").Value == ISBNtextBox.Text || s.Element("Naziv").Value == NazivtextBox.Text || s.Element("Autor").Value == AutortextBox.Text
+                                                  select $"ISBN: {s.Element("ISBN").Value} \nNaziv: { s.Element("Naziv").Value} \nAutor: {s.Element("Autor").Value}\n\n";
+                    foreach (string s in OIBList)
+                    {
+                        PretragaRichTextbox.Text += s;
+                    }
+                }
+                else
+                {
+                    var posudba_i_Vracanje = XDocument.Load(pathPosudbaVracanje);
+                    IEnumerable<string> POSUDBAList = from s in posudba_i_Vracanje.Descendants("Posudivanje")
+                                                      where s.Element("Knjiga").Value == ISBNtextBox.Text && s.Element("Korisnik").Value == OIBtextBox.Text 
+                                                      select "Datum Posudbe: " + s.Element("PosudivanjeDatum").Value +
+                                                             "\nOIB: " + s.Element("Korisnik").Value +
+                                                             "\nISBN: " + s.Element("Knjiga").Value + "\n\n";
+                    foreach (string s in POSUDBAList) { PretragaRichTextbox.Text += s; }
+                }
                 //if (OIBCheck.Checked)
                 //{
                 //    IEnumerable<string> OIBList = from s in Posuditelji.Descendants("Korisnik")
@@ -109,6 +140,8 @@ namespace AplikacijaZaBiblioteku
             NazivtextBox.Enabled = true;
             AutortextBox.Enabled = true;
             ISBNtextBox.Enabled = true;
+
+
         }
     }
 }

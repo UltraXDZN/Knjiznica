@@ -101,3 +101,17 @@ C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj
 C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csproj.CoreCompileInputs.cache
 C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.exe
 C:\Users\Ucenik\Desktop\Juraj Crljenko\NiOP\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.pdb
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\bin\Debug\AplikacijaZaBiblioteku.exe.config
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\bin\Debug\AplikacijaZaBiblioteku.exe
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\bin\Debug\AplikacijaZaBiblioteku.pdb
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csprojAssemblyReference.cache
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.GlavniIzbornik.resources
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.PosudbaVracanje.resources
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.Pretraga.resources
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.Properties.Resources.resources
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.UpisKnjige.resources
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.UpisPosuditelja.resources
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csproj.GenerateResource.cache
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.csproj.CoreCompileInputs.cache
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.exe
+E:\Zadace\Knjiznica\AplikacijaZaBiblioteku\obj\Debug\AplikacijaZaBiblioteku.pdb

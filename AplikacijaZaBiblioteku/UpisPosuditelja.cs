@@ -25,7 +25,7 @@ namespace AplikacijaZaBiblioteku
             Posuditelji KorisnikUpis = new Posuditelji(Convert.ToInt32(OIBKorisnika.Text), ImeKorisnika.Text, PrezimeKorisnika.Text);
             KorisniciList.Add(KorisnikUpis);
             DialogResult dialogResult = MessageBox.Show("Zelite li dodati dodatni upis?", "Upis", MessageBoxButtons.YesNo);
-            if (dialogResult == DialogResult.No)
+            if (dialogResult == DialogResult.Yes)
             {
                 try
                 {
